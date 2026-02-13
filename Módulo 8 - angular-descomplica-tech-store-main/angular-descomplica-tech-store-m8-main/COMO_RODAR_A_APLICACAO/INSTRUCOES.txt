@@ -1,0 +1,34 @@
+
+
+1 - Abra o terminal da IDE e digite:
+
+cd "C:\DESENVOLVIMENTO\Angular\AdvancedFront-End\Módulo 8 - angular-descomplica-tech-store-main\angular-descomplica-tech-store-m8-main"; ng build
+
+2 - Depois rode
+
+cd "C:\DESENVOLVIMENTO\Angular\AdvancedFront-End\Módulo 8 - angular-descomplica-tech-store-main\angular-descomplica-tech-store-m8-main"; ng serve
+
+3 - A aplicação fica disponível em: http://localhost:4200/
+
+4 - Para rodar o backend
+
+cd "C:\DESENVOLVIMENTO\Angular\AdvancedFront-End\Módulo 8 - angular-descomplica-tech-store-main\angular-descomplica-tech-store-m8-main"
+
+5 - Depos digite
+
+npm run server
+
+
+
+DE FORMA AUTOMATICA
+
+Criei um script batch (start.bat) na raiz do projeto (angular-descomplica-tech-store-m8-main).
+
+Para usá-lo:
+
+Navegue até a pasta do projeto pelo WIndows clicando nas pastas, caminho: C:\DESENVOLVIMENTO\Angular\AdvancedFront-End\Módulo 8 - angular-descomplica-tech-store-main\angular-descomplica-tech-store-m8-main\COMO_RODAR_A_APLICACAO
+Clique duas vezes no arquivo start.bat.
+Isso abrirá duas janelas de comando separadas:
+
+Uma executando ng serve (frontend em http://localhost:4200).
+Outra executando npm run server (backend em http://localhost:3000).
